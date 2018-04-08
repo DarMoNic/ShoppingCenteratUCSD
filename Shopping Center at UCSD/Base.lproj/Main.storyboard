@@ -87,8 +87,16 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YDE-BK-qaS">
+                                <rect key="frame" x="158" y="256" width="59" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Sign Up!"/>
+                                <connections>
+                                    <segue destination="2xS-lw-G1l" kind="presentation" id="uEs-Rt-2tc"/>
+                                </connections>
+                            </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" white="0.75" alpha="0.26000000000000001" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="6nO-5f-n37"/>
                     </view>
                 </viewController>
@@ -329,6 +337,7 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="77Z-Sf-OCc"/>
+        <segue reference="uEs-Rt-2tc"/>
         <segue reference="SE5-Y9-1zh"/>
     </inferredMetricsTieBreakers>
 </document>
